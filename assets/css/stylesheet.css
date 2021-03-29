@@ -16,6 +16,19 @@ a{
     color: white;
 }
 
+/* Added By Refsi*/
+
+a:hover {
+  transition: ease 1s;
+  text-decoration: underline;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+/* --- */
+
 header{
     height: 70px;
     background-color: #0c3866;
@@ -63,9 +76,10 @@ header{
 /* Added by Refsi */
 
 #banner-section {
+  transition: ease 1s;
   background-color: #fff;
   animation-name: efek-banner;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
 }
@@ -145,13 +159,32 @@ header{
   color: #000000;
   font-family: Segoe UI;
   cursor: pointer;
+
+  /* Added by Refsi */
+  
+  padding: 15px 40px;
+  background-color: #084b92;
+  cursor: pointer;
+  box-shadow: 0 7px #022041;
+  color: white;
+  
+}
+
+.contact-submit:hover {
+  font-weight: bold;
+}
+
+.contact-submit:active {
+  box-shadow: none;
+  position:relative;
+  top:7px;
 }
 
 .footer {
     background-color: #084b92;
     color: #ffffff;
     height: 60px;
-    padding: 15px;
+    /*padding: 15px;*/
     font-family: Segoe UI;
   }
 
