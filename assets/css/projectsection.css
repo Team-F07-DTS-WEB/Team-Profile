@@ -102,7 +102,7 @@
     }
 }
 
-/* Added by refsi */
+/* Added by Refsi */
 
 @keyframes bounce {
 	0%, 100%, 20%, 50%, 80% {
@@ -138,3 +138,5 @@
   animation-name: bounce;
   -moz-animation-name: bounce;
 }
+
+/* --- */
