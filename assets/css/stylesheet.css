@@ -63,7 +63,7 @@ header{
 
 /* Added by Refsi */
 
-banner {
+.banner {
   background-color: #fff;
   animation-name: efek-banner;
   animation-duration: 4s;
