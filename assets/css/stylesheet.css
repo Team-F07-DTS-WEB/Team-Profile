@@ -155,10 +155,16 @@ header{
   }
 
   /* Added by Refsi */
-  input:focus , textarea:focus
+  input[type="text"], input[type="email"], textarea
+  {
+    background-color:rgba(255, 255, 255, 0.7);
+  }
+
+  input[type="text"]:focus, input[type="email"]:focus , textarea:focus
   {
     border-color: #084b92;
     box-shadow: 2px 2px 3px #084b92;
+    background-color: #fff;
   }
   /* --- */
 
