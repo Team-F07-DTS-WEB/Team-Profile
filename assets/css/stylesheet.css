@@ -354,6 +354,13 @@ input:nth-of-type(5) {
 input:nth-of-type(5):checked ~ main#carousel {
   --position: 5;
 }
+
+/* Fix carosuel by Refsi */
+.team-profile input {
+  width: 100%;
+}
+/* --- */
+
 .txt-heading {
   font-size: 30px;
   color: #000;
