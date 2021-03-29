@@ -80,3 +80,29 @@
         font-size: 20px;
     }
 }
+
+/** Added by Refsi */
+
+@media screen and (max-width: 780px){
+    .banner {
+        clear:both;
+        margin: 0;
+    }
+    .banner-img {
+        width: 100%;
+        display: block;
+    }
+    .banner-text {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .container-project {
+        clear:both;
+    }
+
+    input,textarea {
+        width: 100%;
+    }
+}
