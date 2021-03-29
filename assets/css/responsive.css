@@ -93,6 +93,7 @@
         display: block;
     }
     .banner-text {
+        clear:both;
         width: 100%;
         text-align: center;
         margin: 0 auto;
@@ -104,5 +105,9 @@
 
     input,textarea {
         width: 100%;
+    }
+
+    .header-menu {
+        display: none;
     }
 }
