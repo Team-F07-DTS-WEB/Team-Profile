@@ -245,7 +245,6 @@ header{
   
 }
 
-
 main#carousel {
   grid-row: 1 / 2;
   grid-column: 1 / 8;
@@ -355,7 +354,7 @@ input:nth-of-type(5):checked ~ main#carousel {
   --position: 5;
 }
 
-/* Fix carosuel by Refsi */
+/* Fix Carousel by Refsi */
 .team-profile input {
   width: 100%;
 }
