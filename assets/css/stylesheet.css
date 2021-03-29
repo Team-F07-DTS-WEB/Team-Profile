@@ -154,6 +154,14 @@ header{
     font-family: Segoe UI;
   }
 
+  /* Added by Refsi */
+  input:focus , textarea:focus
+  {
+    border-color: #084b92;
+    box-shadow: 2px 2px 3px #084b92;
+  }
+  /* --- */
+
 .contact-submit {
   background-color: #ffffff;
   color: #000000;
