@@ -1,4 +1,4 @@
-@media(max-width: 1500px){
+@media screen and (max-width: 1500px){
     .banner{
         height: 430px;
         width: 1000px;
@@ -19,7 +19,7 @@
     }
 }
 
-@media(max-width: 1300px){
+@media screen and (max-width: 1300px){
     .banner{
         padding-top: 50px;
         padding-left: 300px;
@@ -48,7 +48,7 @@
     }
 }
 
-@media(max-width: 1000px){
+@media screen and (max-width: 1000px){
     .banner{
         padding: 0;
         width: 100%;

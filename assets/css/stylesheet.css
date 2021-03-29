@@ -43,7 +43,6 @@ header{
 }
 
 /* Added by Refsi */
-
 .header-menu a:hover {
     background-color: #fff;
     color: #0C3866;
@@ -67,6 +66,8 @@ header{
   background-color: #fff;
   animation-name: efek-banner;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 }
 
 @keyframes efek-banner {
@@ -103,6 +104,13 @@ header{
     font-size: 30px;
     margin: 0;
 }
+
+  /* Added by Refsi */
+  #contact-section {
+    min-height: 800px;
+    text-align: center;
+  }
+  /* --- */
 
   .contact-form {
     padding-top: 30px;
@@ -208,8 +216,8 @@ main#carousel {
   pointer-events: none;
 }
 
-.item {
-  /*position: absolute;*/
+.team-profile .item {
+  position: absolute;
   width: 300px;
   height: 400px;
 
@@ -222,7 +230,7 @@ main#carousel {
   z-index: calc((var(--position) - var(--abs)));
 }
 
-.item:nth-of-type(1) {
+.team-profile .item:nth-of-type(1) {
   --offset: 1;
   
   background-image: url("../images/febry.jpg");
@@ -231,28 +239,28 @@ main#carousel {
   background-color: #fff;
 
 }
-.item:nth-of-type(2) {
+.team-profile .item:nth-of-type(2) {
   --offset: 2;
   background-image: url("../images/refsi.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #fff;
 }
-.item:nth-of-type(3) {
+.team-profile .item:nth-of-type(3) {
   --offset: 3;
   background-image: url("../images/arief.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #fff;
 }
-.item:nth-of-type(4) {
+.team-profile .item:nth-of-type(4) {
   --offset: 4;
   background-image: url("../images/fahmy.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #fff;
 }
-.item:nth-of-type(5) {
+.team-profile .item:nth-of-type(5) {
   --offset: 5;
   background-image: url("../images/agri.jpg");
   background-repeat: no-repeat;
